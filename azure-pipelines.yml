@@ -6,7 +6,7 @@ trigger:
   - main
 
 pool:
-  vmImage: local
+  name: local
 
 variables:
   buildConfiguration: 'Release'
