@@ -5,7 +5,7 @@ pool:
   name: 'local' # Replace Default with the name of your agent pool if you used a different pool
 
 variables:
-  buildConfiguration: 'Release' add
+  buildConfiguration: 'Release'
 
 steps:
 - task: UseDotNet@2
